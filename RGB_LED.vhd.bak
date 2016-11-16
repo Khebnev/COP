@@ -1,0 +1,9 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity RGB_LED is
+       port (
+             список входных сигналов : in тип сигналов;
+             список выходных сигналов : out тип сигналов
+            );
+end RGB_LED;

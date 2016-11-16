@@ -1,0 +1,17 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity Buffer_1 is
+       port (
+             список входных сигналов : in тип сигналов;
+             список выходных сигналов : out тип сигналов
+            );
+end Buffer_1;
+architecture имя_архитектуры of Buffer_1 is
+begin
+        process(список запуска)
+        variable список переменных;
+        begin
+            описание зависимости выходных сигналов от входных
+        end process;
+end имя_архитектуры;
